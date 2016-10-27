@@ -7,6 +7,8 @@ angular.module('planner').controller('PlannerController', ['$scope', '$statePara
     function ($scope, $stateParams, $location, Authentication) {
         $scope.authentication = Authentication;
 
-        console.log('init planner controller');
+        $scope.isNavCollapsed = true;
+        $scope.isCollapsed = true;
+        $scope.isCollapsedHorizontal = true;
     }
 ]);

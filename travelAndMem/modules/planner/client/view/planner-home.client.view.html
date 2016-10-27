@@ -13,14 +13,28 @@
             <div class="col-md-12 text-center grey-border">
                <h1>New Panel <span class="glyphicon glyphicon-pencil"></span> </h1>
             </div>
-            <div class="col-md-12 activity-panel grey-border">
+
+            <div class="col-md-12 activity-panel grey-border" ng-click="isCollapsed = !isCollapsed">
                <h3>Running at <span class="text-color-grey"> 6am Mon, March 21</span></h3>
+
+               <div collapse="isCollapsed">
+                  <div class="well well-lg"><h4>Running at the Pier</h4></div>
+               </div>
             </div>
-            <div class="col-md-12 activity-panel grey-border">
+
+            <div class="col-md-12 activity-panel grey-border" ng-click="isCollapsed = !isCollapsed">
                <h3>Visit Museum at <span class="text-color-grey">1pm Mon, March 21</span></h3>
+
+               <div collapse="isCollapsed">
+                  <div class="well well-lg"><h4>Visit Museum of Modern Arts</h4></div>
+               </div>
             </div>
-            <div class="col-md-12 activity-panel grey-border">
+
+            <div class="col-md-12 activity-panel grey-border" ng-click="isCollapsed = !isCollapsed">
                <h3>Clubbing at <span class="text-color-grey">11pm Mon, March 21 </span></h3>
+               <div collapse="isCollapsed">
+                  <div class="well well-lg"><h4>Clubbing at Omnia</h4></div>
+               </div>
             </div>
          </div>
 

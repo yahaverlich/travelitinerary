@@ -7,7 +7,7 @@
 
 #planner-container{
     background-color: #fff;
-    font-family: "Helvetica Neue", Calibri, Helvetica, Arial;
+    font-family: "Oswald", "Helvetica Neue", Calibri, Helvetica, Arial;
 }
 
 .grey-border{
@@ -32,6 +32,12 @@
     vertical-align: middle;
     line-height: 200px;
 }
+
+div.activity-panel:hover{
+    background-color: #ededff;
+
+}
+
 
 .activity-tile-text{
     vertical-align: middle;
@@ -71,4 +77,16 @@
 
 .text-color-grey{
     color: #1554b8;
+}
+
+@font-face {
+    font-family: Oswald;
+    src: url(Oswald-Light.ttf)
+}
+
+.horizontal-collapse {
+    height: 70px;
+}
+.navbar-collapse.in {
+    overflow-y: hidden;
 }
