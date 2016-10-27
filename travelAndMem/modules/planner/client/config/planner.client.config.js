@@ -11,5 +11,11 @@ angular.module('planner').run(['Menus',
             title: 'Travel Planner',
             state: 'planner.view'
         });
+
+        // Add the articles dropdown item
+        Menus.addMenuItem('topbar', {
+            title: 'Extra',
+            state: 'planner.extra'
+        });
     }
 ]);

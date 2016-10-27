@@ -18,6 +18,11 @@ angular.module('planner').config(['$stateProvider',
             .state('planner.view', {
                 url: '',
                 templateUrl: 'modules/planner/view/planner-home.client.view.html'
+            })
+
+            .state('planner.extra', {
+                url: '/extra',
+                templateUrl: 'modules/planner/view/planner-extra.client.view.html'
             });
     }
 
