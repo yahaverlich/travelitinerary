@@ -23,6 +23,26 @@ angular.module('planner').config(['$stateProvider',
             .state('planner.extra', {
                 url: '/extra',
                 templateUrl: 'modules/planner/view/planner-extra.client.view.html'
+            })
+
+            .state('planner.flights', {
+                url: '/flights',
+                templateUrl: 'modules/planner/view/planner-flights.client.view.html'
+            })
+
+            .state('planner.hotels', {
+                url: '/hotels',
+                templateUrl: 'modules/planner/view/planner-hotels.client.view.html'
+            })
+
+            .state('planner.rentals', {
+                url: '/rentals',
+                templateUrl: 'modules/planner/view/planner-rentals.client.view.html'
+            })
+
+            .state('planner.other', {
+                url: '/other',
+                templateUrl: 'modules/planner/view/planner-other.client.view.html'
             });
     }
 
